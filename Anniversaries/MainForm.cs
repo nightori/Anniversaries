@@ -24,7 +24,7 @@ namespace Anniversaries
                 MessageBox.Show("Вы ещё не родились! (проверьте системную дату)","Ошибка!");
                 return;
             }
-            int current = (DateTime.Now - bday).Days + 1;
+            int current = (now - bday).Days + 1;
             outputTB.Text = current + "-й день с рождения";
             int n = (int)intervalNUD.Value;
             for (int i = n; i <= intervalNUD.Maximum; i += n)
