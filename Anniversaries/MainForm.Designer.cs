@@ -61,18 +61,18 @@
             // intervalNUD
             // 
             this.intervalNUD.Increment = new decimal(new int[] {
-            1000,
+            100,
             0,
             0,
             0});
             this.intervalNUD.Location = new System.Drawing.Point(141, 25);
             this.intervalNUD.Maximum = new decimal(new int[] {
-            50000,
+            30000,
             0,
             0,
             0});
             this.intervalNUD.Minimum = new decimal(new int[] {
-            1000,
+            100,
             0,
             0,
             0});
@@ -82,7 +82,7 @@
             this.intervalNUD.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.intervalNUD.ThousandsSeparator = true;
             this.intervalNUD.Value = new decimal(new int[] {
-            2000,
+            1000,
             0,
             0,
             0});

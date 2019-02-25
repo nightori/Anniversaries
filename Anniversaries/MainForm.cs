@@ -38,7 +38,7 @@ namespace Anniversaries
 
         private void buttonCopy_Click(object sender, EventArgs e)
         {
-            Clipboard.SetText(outputTB.Text);
+            if (outputTB.Text != "") Clipboard.SetText(outputTB.Text);
         }
     }
 }
