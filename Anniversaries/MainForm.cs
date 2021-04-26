@@ -30,7 +30,7 @@ namespace Anniversaries
             for (int i = n; i <= intervalNUD.Maximum; i += n)
             {
                 bday = bday.AddDays(n);
-                string completed = DateTime.Compare(bday, now) > 0 ? "[-] " : "[+] ";
+                string completed = DateTime.Compare(bday, now) > 0 ? "[–] " : "[+] ";
                 string dateStr = bday.ToString("d");
                 outputTB.Text += "\r\n" + completed + i + " дней:\t"+dateStr;
             }

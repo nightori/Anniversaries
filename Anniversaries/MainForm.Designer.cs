@@ -42,6 +42,7 @@
             // dateTimePicker
             // 
             this.dateTimePicker.Cursor = System.Windows.Forms.Cursors.Default;
+            this.dateTimePicker.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dateTimePicker.Location = new System.Drawing.Point(15, 25);
             this.dateTimePicker.MaxDate = new System.DateTime(9000, 12, 31, 0, 0, 0, 0);
             this.dateTimePicker.MinDate = new System.DateTime(1800, 1, 1, 0, 0, 0, 0);
